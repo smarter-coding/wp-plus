@@ -1,0 +1,16 @@
+<?php
+
+namespace || namespace ||Commands;
+
+use SmarterCoding\WpPlus\Commands\Command;
+
+class || name:upper_camel_case || extends Command
+{
+    public const NAME = '|| name:lower_hyphen_case ||';
+    protected $signature = '';
+
+    public function handle(): bool
+    {
+        return false;
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "name": "smartercoding/wp-plus",
+    "autoload": {
+        "psr-4": {
+            "SmarterCoding\\WpPlus\\": "src/"
+        }
+    },
+    "require": {
+        "fakerphp/faker": "^1.16",
+        "symfony/http-foundation": "^5.3",
+        "psr/container": "^1.0",
+        "illuminate/database": "^8.68",
+        "smartercoding/file-generator": "dev-master",
+        "illuminate/validation": "^8.69",
+        "illuminate/filesystem": "^8.69",
+        "illuminate/translation": "^8.69",
+        "elipettingale/altorouter": "^2.1"
+    }
+}
